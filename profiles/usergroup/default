@@ -1,0 +1,6 @@
+include(usergroup/default)
+include(usergroup/conf)
+include(usergroup/base)
+
+[settings]
+compiler.cppstd=17

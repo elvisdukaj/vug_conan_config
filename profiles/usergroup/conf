@@ -1,0 +1,3 @@
+[conf]
+tools.env.virtualenv:powershell=False
+tools.cmake.cmaketoolchain:generator=Ninja Multi-Config
