@@ -1,4 +1,4 @@
-include(xrsw/spaces/android_base)
+include(usergroup/android_base)
 
 [settings]
 build_type=Release
