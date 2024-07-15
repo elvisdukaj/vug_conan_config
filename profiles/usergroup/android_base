@@ -1,4 +1,4 @@
-include(usergroup/base)
+include(usergroup/require)
 include(usergroup/conf)
 
 [settings]
