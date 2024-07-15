@@ -3,4 +3,4 @@ include(vug/conf)
 include(vug/require)
 
 [settings]
-compiler.cppstd=17
+compiler.cppstd=23
