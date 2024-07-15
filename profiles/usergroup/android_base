@@ -1,5 +1,0 @@
-include(usergroup/require)
-include(usergroup/conf)
-
-[settings]
-os=Android

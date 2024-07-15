@@ -1,4 +1,4 @@
-include(usergroup/android_base)
+include(vug/android_base)
 
 [settings]
 build_type=Release

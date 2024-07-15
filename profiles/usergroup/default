@@ -1,6 +1,0 @@
-include(default)
-include(usergroup/conf)
-include(usergroup/require)
-
-[settings]
-compiler.cppstd=17

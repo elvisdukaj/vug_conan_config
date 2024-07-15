@@ -1,0 +1,6 @@
+include(default)
+include(vug/conf)
+include(vug/require)
+
+[settings]
+compiler.cppstd=17

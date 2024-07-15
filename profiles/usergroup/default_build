@@ -1,2 +1,0 @@
-include(default)
-include(usergroup/conf)
