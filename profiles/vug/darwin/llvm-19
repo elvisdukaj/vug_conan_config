@@ -4,14 +4,15 @@ include(vug/default)
 arch=x86_64
 build_type=Release
 compiler=clang
-compiler.cppstd=gnu23
+compiler.cppstd=23
+compiler.cstd=99
 compiler.libcxx=libc++
 compiler.version=19
 os=Macos
 
 
 [buildenv]
-{% set LLVM_PATH = "/usr/local/Cellar/llvm/19.1.5" %}
+{% set LLVM_PATH = os.path.realpath("/usr/local/opt/llvm@19") %}
 {% set clang = LLVM_PATH + "/bin/clang-19" %}
 {% set LLVM_TOOL = LLVM_PATH + "/bin/llvm-" %}
 
